@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Its just an Similar Website to Pintrest that i coded to Boost my skills 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
