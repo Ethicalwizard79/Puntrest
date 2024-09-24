@@ -1,0 +1,73 @@
+/* signup.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('/home/prasannkhamkar79/Projects/firebaselogin/firebaselogin/public/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-blend-mode:overlay;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background: rgb(255, 255, 255); /* Slightly opaque background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.527);
+    padding: 2rem;
+    width: 350px;
+    max-width: 90%;
+    text-align: center;
+    backdrop-filter: blur(100px); /* Adds a blur effect to the background */
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #4a90e2; /* Eye-catching color */
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #4a90e2; /* Highlight border color on focus */
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #4a90e2; /* Button color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background: #357abd; /* Darker shade on hover */
+  }
+  
+  p.error {
+    color: #e74c3c; /* Red color for error messages */
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+  
